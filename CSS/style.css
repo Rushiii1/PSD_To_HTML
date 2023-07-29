@@ -17,6 +17,7 @@ body{
     padding: 0 6%;
 }
 
+/* TopBar */
 #topbar{
     /* color: #fff; */
     background-color: #576574;
@@ -33,7 +34,33 @@ body{
     float: right;
 }
 .fa-brands{
-    color: #fdfdfd;
+   color: #fdfdfd;
     margin: 5px;
-
 }
+
+/* LogoBar */
+#logobar img{
+    width: 180px;
+    margin: 20px 0px;
+}
+
+#logobar img:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  /* NavBar */
+  #navbar{
+    background-color: #ee5253;
+    margin-top: -18px;
+  }
+  #navbar ul li{
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 30px;
+  }
+  #navbar ul li a{
+    color: #fdfdfd;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  

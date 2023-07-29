@@ -1,0 +1,39 @@
+/* Fonts  */
+@font-face{
+    font-family: Coda-Regular;
+    src: url(../Fonts/Coda-ExtraBold.ttf);
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Coda-Regular;
+}
+body{
+    margin: 0;
+    /* padding: 0px; */
+}
+.uni-padding{
+    padding: 0 6%;
+}
+
+#topbar{
+    /* color: #fff; */
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#toll-free{
+    float: left;
+    color: #fdfdfd;
+    margin: 0px;
+}
+#social-icon{
+    float: right;
+}
+.fa-brands{
+    color: #fdfdfd;
+    margin: 5px;
+
+}

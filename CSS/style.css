@@ -51,7 +51,7 @@ body{
   /* NavBar */
   #navbar{
     background-color: #ee5253;
-    margin-top: -18px;
+    /* margin-top: -18px; */
   }
   #navbar ul li{
     display: inline-block;
@@ -63,4 +63,49 @@ body{
     text-decoration: none;
     font-size: 16px;
   }
+  #navbar ul{
+    margin: 0;
+    padding: 0;
+  }
   
+
+  /* footer  */
+  #imp-links{
+    background-color: #576574;
+    color: #fdfdfd;
+    overflow: auto;
+  }
+  .div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+
+  }
+  .div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px ;
+    font-weight: normal;
+  }
+  #footer-menu{
+    list-style-type: none;
+    padding: 0px;
+  }
+  #footer-menu li{
+    padding-bottom: 10px;
+  }
+  #footer-menu li a{
+    color: #fdfdfd;
+    text-decoration: none;
+  }
+  #footer-menu-container{
+    padding-left: 100px;
+  }
+
+  #copyright{
+    background-color: #223f3e;
+    text-align: center;
+    color: #fdfdfd;
+    padding: 4px;
+  }

@@ -107,6 +107,9 @@ body{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 15px;
   }
+  /* .box:hover{
+    transform: scale(1.1);
+  } */
   .box img{
     width: 100%;
 
@@ -165,8 +168,32 @@ body{
     display: inline-block;
     font-size: 16px;
   }
+
+
+  /* live class */
+  #live-class-h1{
+    text-align: center;
+    margin-top: 30px;
+  }
+  #live-class-h1 span{
+    color: #ee5253;
+  }
+  .live-box{
+    background-color: aliceblue;
+    padding: 8px;
+  }
+  .live-box span{
+   color: #ee5253;
+  }
+  .live-box h3,p{
+    text-align: center;
+    
+  }
+  .live-box:hover{
+    transform: scale(1.1);
+  }
   
-  /* Show-case  */
+  /* Career  */
   #show-main{
     display: flex;
     /* justify-content: space-evenly; */
@@ -187,6 +214,7 @@ body{
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 2px ;
+    margin-top: 50px;
   }
   .show-case h1 span{
     color: #ee5253;
@@ -209,6 +237,52 @@ body{
     border-radius: 15px;
   }
 
+  /* Start button */
+
+  #start-btn{
+    text-align: center;
+    margin-top: 50px;
+  }
+  #start-btn button{
+    padding: 15px;
+    width: 15%;
+    background-color:#ee5253;
+    border: none;
+    color: #fdfdfd;
+    border-radius: 10px;
+    /* font-weight: bold; */
+    font-size: 15px;
+  }
+  #start-btn button:hover{
+    color: #000000;
+    background-color: red;
+    transform: scale(1.1);
+  }
+  
+
+
+
+/* Certification  */
+#class{
+  display: flex;
+  gap: 40px;
+  margin-top: 70px;
+}
+#class h1{
+  text-align: center;
+}
+#class span{
+  color: #ee5253;
+  font-size: 45px;
+}
+#class p{
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+}
+#class img:hover{
+  transform: scale(1.1);
+}
   
   
 

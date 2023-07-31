@@ -166,6 +166,20 @@ body{
     font-size: 16px;
   }
   
+  /* Show-case  */
+  #show-case{
+    text-align: center;
+    width: 90%;
+    margin-top: 50px;
+  }
+  #show-case h1 span{
+    color: #ee5253;
+    font-size:45px;
+  }
+  iframe{
+    border-radius: 15px;
+  }
+
   
   
 

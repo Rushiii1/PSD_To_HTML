@@ -99,7 +99,7 @@ body{
   #parent{
     display: flex;
     gap: 30px;
-    margin: 40px;
+    margin-top: 50px;
   }
   .box{
     width: 33.33%;
@@ -167,14 +167,43 @@ body{
   }
   
   /* Show-case  */
-  #show-case{
+  #show-main{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* background-color: #eae9e9; */
+  
+  }
+  .show-case{
+    /* background-color: #eae9e9; */
     text-align: center;
     width: 90%;
-    margin-top: 50px;
+    margin-top: 30px;
+    justify-content: space-around;
+    /* padding: 30px; */
+    /* border-radius: 10px; */
   }
-  #show-case h1 span{
+  #career-h1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px ;
+  }
+  .show-case h1 span{
     color: #ee5253;
     font-size:45px;
+  }
+  .show-case  button{
+    background-color: #ee5253;
+    /* font-size:45px; */
+    padding: 10px;
+    width: 20%;
+    color: #fdfdfd;
+    border: none;
+    border-radius: 8px;
+  }
+  .show-case  button:hover{
+    background-color:red;
+    color: #000000;
   }
   iframe{
     border-radius: 15px;

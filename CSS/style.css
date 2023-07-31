@@ -89,14 +89,61 @@ body{
   #poster p{
     /* color: #ee5253; */
     font-size: 20px;
-    margin-top: -2;
+    margin-top: -16px;
+    font-weight: bolder;
+    
   }
  
  /* Our Courses */
   
+  #parent{
+    display: flex;
+    gap: 30px;
+    margin: 40px;
+  }
+  .box{
+    width: 33.33%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+  }
+  .box img{
+    width: 100%;
+
+  }
+  #parent h1{
+    text-align: center;
+  }
+  #our-courses{
+    text-align: center;
+  }
+  #our-courses h1{
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px ;
+    text-underline-offset: 10px;
+  }
+  #our-courses p{
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  #our-courses p span{
+    font-size: 18px;
+    color:red;
+  }
+  .list{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .box h3,p{
+    margin-left: 20px;
+  }
+  .box button{
+    width: 50%;
+    margin: auto;
+  }
   
-
-
+  
 
   /* footer  */
   #imp-links{

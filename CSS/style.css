@@ -73,33 +73,27 @@ body{
   }
 
   /* pooster */
-  
-
-  /* Our Courses */
-  #courses{
-    overflow: auto;
-  }
-  .section33{
-    width: 33.33%;
-    float: left;
+  #poster{
+    background-image: url(../Images/laptop.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color:#fdfdfd;
     text-align: center;
+    padding-left: 600px;
+    padding-top: 50px;
   }
-  .red-heading{
-    text-align: center;
-    /* font-size: 50px; */
-    /* text-decoration: underline; */
+  #poster h1{
+    font-size: 100px;
   }
-  span{
-    color: #ee5253;
+  #poster p{
+    /* color: #ee5253; */
     font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
+    margin-top: -2;
   }
-  #heading-under{
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 2px ;
-  }
+ 
+ /* Our Courses */
+  
   
 
 
